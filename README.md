@@ -31,7 +31,7 @@ Students who complete this course satisfactorally will:
 * have an understanding of how the behavior of artificial intelligence and machine learning algorithms as well
 as user task, intention, and understanding affect the overall user experience.
 
-# Schedule
+## Schedule
 ### Week 1 : Mental Models and Folk Theories
 #### Discussion Prompt : 
 * **How can Machine Learning make an aspect of life better?** Don't overthink this. It can realy be any aspect of anybody's life.
@@ -41,3 +41,13 @@ as user task, intention, and understanding affect the overall user experience.
 #### Readings :
 * [Human-Centered Machine Learning (The Google Approach)](https://medium.com/google-design/human-centered-machine-learning-a770d10562cd) : *Josh Lovejoy*, *Jess Holbrook*
 * [Human-Cent*r*ed Machine Learning (The Academic Approach)](https://medium.com/human-centered-machine-learning/what-is-human-centred-machine-learning-a2f8f8170f73)
+
+### Week 2 : Interactive Machine Learning and Machine Teaching
+#### Discussion Prompt :
+#### Readings : 
+* [Interactive Machine Learning](http://dl.acm.org/citation.cfm?id=604056) *Jerry Alan Fails, Dan Olsen*
+* [Power to the People: The Role of Humans in Interactive ML](https://www.aaai.org/ojs/index.php/aimagazine/article/view/2513/2456) *Saleema Amershi, Maya Cakmak, Bradley Knox, Todd Kulesza*
+* [Effective End-User Interaction with Machine Learning](https://homes.cs.washington.edu/~jfogarty/publications/aaai2011.pdf)
+* [Machine Teaching: An Inverse Problem to Machine Learning and an Approach Toward Optimal Education](http://pages.cs.wisc.edu/~jerryzhu/machineteaching/pub/MachineTeachingAAAI15.pdf) *Xiaojin (Jerry) Zhu*
+* [Analysis of a Design Pattern for Teaching with Features and Labels](https://arxiv.org/pdf/1611.05950.pdf) *Christopher Meek, Patrice Simard, Xiaojin (Jerry) Zhu*
+
