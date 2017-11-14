@@ -140,8 +140,6 @@ and the presenter can integrate them into the weekly presentation
 
 #### Readings:
 * [Interpretation and trust: designing model-driven visualizations for text analysis](https://dl.acm.org/citation.cfm?id=2207738) (*Jason Chuang*, *Daniel Ramage*, *Christopher Manning*, *Jeffrey Heer*)
-* []
-
 * Model Visualization (Jason Chuang)
 * Model Interpretability (Amershi, Himabindu)
 * Designing for Uncertainty (http://visualization.ischool.uw.edu/hci_uncertainty/)
