@@ -93,34 +93,66 @@ and the presenter can integrate them into the weekly presentation
 * [Interactive Knowledge Discovery](https://link.springer.com/chapter/10.1007/978-3-319-69775-8_1)
 
 
-### Week 2 : Interactive Machine Learning (IML)
+### Week 2 : Interactive Machine Learning 1 : Introduction
+#### Themes Covered:
+* Interactive ML
+* Machine Teaching
+
+#### Discussion Prompt:
+* What are some of the trade-offs that are made to make an ML model suitable for interactivity?
+* Describe the user experience for data labeling.
+
+#### Readings:
+* [Power to the People: The Role of Humans in Interactive ML](https://www.aaai.org/ojs/index.php/aimagazine/article/view/2513/2456) (*Saleema Amershi, Maya Cakmak, Bradley Knox, Todd Kulesza*)
+* [Effective End-User Interaction with Machine Learning](https://homes.cs.washington.edu/~jfogarty/publications/aaai2011.pdf)
+* [Designing Interactions for Robot Active Learners](http://edithlaw.ca/cs889/2015/reading/SL/cakmak10_tamd_active.pdf) (*Maya Cakmak*, *Crystal Chao*, *Andrea L. Thomaz*)
+* [Machine Teaching: An Inverse Problem to Machine Learning and an Approach Toward Optimal Education](http://pages.cs.wisc.edu/~jerryzhu/machineteaching/pub/MachineTeachingAAAI15.pdf) (*Xiaojin Zhu*)
+* [Interactive Machine Learning](http://edithlaw.ca/cs889/2014/reading/InteractiveMachineLearning.pdf) (*Jerry Alan Fails*, *Dan R. Olsen Jr.*)
+* [Toward harnessing user feedback for machine learning](https://dl.acm.org/citation.cfm?id=1216316)
+
+
+
+### Week 3 : Interactive Machine Learning 1 : Active Learning
 #### Themes covered:
 * Active Learning
 * Machine Teaching
-* Programming by Demonstration (PbD)
-* Apprenticeship Learning
 * Interactive Feature Selection / Model Selection
 
 #### Discussion Prompt :
-* What are some of the trade-offs that are made to make an ML model suitable for interactivity?
-* Describe the user experience for data labeling.
 * What are some kinds of model feedback and how do they affect user interaction? Why does feedback affect user interaction?
 * What are some ways in which current machine learning algorithms and methods have been modified for suitability in IML?
+* What are some of the drawbacks to Active Learning and why might (or might not) they be addressed in the UI/UX design?
+
 #### Readings : 
-* [Interactive Machine Learning](http://edithlaw.ca/cs889/2014/reading/InteractiveMachineLearning.pdf) (*Jerry Alan Fails*, *Dan R. Olsen Jr.*)
-* [Power to the People: The Role of Humans in Interactive ML](https://www.aaai.org/ojs/index.php/aimagazine/article/view/2513/2456) (*Saleema Amershi, Maya Cakmak, Bradley Knox, Todd Kulesza*)
-* [Effective End-User Interaction with Machine Learning](https://homes.cs.washington.edu/~jfogarty/publications/aaai2011.pdf)
-* [Machine Teaching: An Inverse Problem to Machine Learning and an Approach Toward Optimal Education](http://pages.cs.wisc.edu/~jerryzhu/machineteaching/pub/MachineTeachingAAAI15.pdf) (*Xiaojin Zhu*)
 * [Analysis of a Design Pattern for Teaching with Features and Labels](https://arxiv.org/pdf/1611.05950.pdf) (*Christopher Meek, Patrice Simard, Xiaojin Zhu*)
+* [What’s It Going to Cost You?: Predicting Effort vs. Informativeness for Multi-Label Image Annotations](http://edithlaw.ca/cs889/2015/reading/vijayanarasimhan_grauman_cvpr2009.pdf)
+* [Designing Interactions for Robot Active Learners](http://edithlaw.ca/cs889/2015/reading/SL/cakmak10_tamd_active.pdf) (*Maya Cakmak*, *Crystal Chao*, *Andrea L. Thomaz*)
+* [Interactive Optimization for Steering Machine Classification](http://edithlaw.ca/cs889/2015/reading/Steering_Classification_2010.pdf) (*Ashish Kapoor*, *Bongshin Lee*, *Desney Tan*, *Eric Horvitz*)
+* [Active Learning with Real Annotation Costs](http://edithlaw.ca/cs889/2015/reading/settles.nips08.pdf) (*Burr Settles*, *Mark Craven*, *Lewis Friedland*)
+
+
+### Week 4 : Interactive Machine Learning 2: Reinforcement Learning
+#### Themes covered:
+* Programming by Demonstration / Learning By Example / Apprenticeship Learning
+* reinforcement learning 
+* inverse reinforcement learning
+
+#### Discussion Prompts:
+* From a user perspective, what makes apprenticeship learning so different from active learning?
+* What does the state and action space represent in each of these papers
+#### Readings:
+* [A survey of robot learning from demonstration](http://edithlaw.ca/cs889/2015/reading/09ras-brenna.pdf)
+* [Towards Health Recommendation Systems: An Approach for Providing Automated Personalized Health Feedback from Mobile Data](https://link.springer.com/chapter/10.1007/978-3-319-51394-2_26/fulltext.html) (*Mashfiqui Rabbi*, *Min Hane Aung*, *Tanzeem Choudhury*)
 * [Apprenticeship Learning via Inverse Reinforcement Learning](http://ai.stanford.edu/~ang/papers/icml04-apprentice.pdf) (*Pieter Abeel*, *Andrew Ng*)
 * [Programming By Demonstration](https://www.researchgate.net/profile/Craig_Nevill-Manning/publication/2701892_Programming_By_Demonstration/links/0912f507c157b05869000000.pdf) (*Craig Nevill-Manning*)
 
-### Week 3 : Model Personalization
-#### Themes covered:
+### Week 5 : Model Personalization
+#### Themes:
 * Semi-supervised learning
 * Community Similarity
-* reinforcement learning
 * incremental and online learning
+
+#### Discussion Prompt:
 
 #### Readings:
 * [Towards Health Recommendation Systems: An Approach for Providing Automated Personalized Health Feedback from Mobile Data](https://link.springer.com/chapter/10.1007/978-3-319-51394-2_26/fulltext.html) (*Mashfiqui Rabbi*, *Min Hane Aung*, *Tanzeem Choudhury*)
@@ -129,64 +161,104 @@ and the presenter can integrate them into the weekly presentation
 * [Enabling large-scale human activity inference on smartphones using community similarity networks](http://www.cs.odu.edu/~cs441/Papers/sense-003.pdf) (*Nicholas Lane*, *Ye Xu*, *Hong Lu*, *Shaohan Hu*, *Tanzeem Choudhury*, *Andrew Campbell*, *Feng Zhao*)
 * [Building Personalized Activity Recognition Models with Scarce Labeled Data Based on Class Similarities](https://link.springer.com/chapter/10.1007/978-3-319-26401-1_25)
 * [Potential for Personalization](http://doi.acm.org/10.1145/2528394.2528395) (*Jaime Teevan*, *Susan T. Dumais*, *Eric Horvitz*)
+* [Bootstrapping Personalised Human Activity Recognition Using Online Active Learning](http://homepages.cs.ncl.ac.uk/paolo.missier/doc/tudor-Liverpool.pdf) (*Tudor Miu*, *Paolo Missier*, *Thomas Plotz*)
 
-
-### Week 4 : Model Transparency
-#### Themes covered:
+### Week 6 : Model Transparency
+#### Themes:
 * Model / Data Visualization
 * Model Interpretabiity
-* Designing for uncertainty
+* [Designing for uncertainty](http://visualization.ischool.uw.edu/hci_uncertainty/)
 * Explainable AI
+
+#### Discussion Prompts:
 
 #### Readings:
 * [Interpretation and trust: designing model-driven visualizations for text analysis](https://dl.acm.org/citation.cfm?id=2207738) (*Jason Chuang*, *Daniel Ramage*, *Christopher Manning*, *Jeffrey Heer*)
-* Model Visualization (Jason Chuang)
-* Model Interpretability (Amershi, Himabindu)
-* Designing for Uncertainty (http://visualization.ischool.uw.edu/hci_uncertainty/)
-	* http://social.cs.uiuc.edu/papers/Motahhare-CHIWorkshop17-CameraReady.pdf
-* Data Visualization (Jessica Hullman http://ieeexplore.ieee.org/abstract/document/6064986/?part=1)
-* Explainable AI (https://www.cc.gatech.edu/~alanwags/DLAI2016/(Gunning)%20IJCAI-16%20DLAI%20WS.pdf)
+* [Statistical Modeling: The Two Cultures](https://projecteuclid.org/download/pdf_1/euclid.ss/1009213726%20) (*Leo Breiman*)
+* [Interpretable Decision Sets: A Joint Framework for Description and Prediction](https://dl.acm.org/citation.cfm?id=2939874) (*Himabindu Lakkaraju*, *Stephen H. Bach*, *Jure Leskovec*)
+* [Keeping Multiple Views Consistent: Constraints, Validations, and Exceptions in Visualization Authoring](http://faculty.washington.edu/jhullman/VIS17_Consistency_CR.pdf) (*Zening Qu*, *Jessica Hullman*)
 * [It's not a bug its a feature](https://www.researchgate.net/profile/Dennis_Eilers/publication/320508355_It%27s_not_a_Bug_it%27s_a_Feature_How_Visual_Model_Evaluation_can_help_to_incorporate_Human_Domain_Knowledge_in_Data_Science/links/59e9083ea6fdccfe7faffa8b/Its-not-a-Bug-its-a-Feature-How-Visual-Model-Evaluation-can-help-to-incorporate-Human-Domain-Knowledge-in-Data-Science.pdf)
-
-### Week 5 : Crowd ML
-* Democratizing ML Models
-	* [Community-Guided Learning: Exploiting Mobile Sensor Users to Model Human Behavior](http://www.aaai.org/ocs/index.php/AAAI/AAAI10/paper/download/1933/2263)
-* Collaborative Filtering
-* Socially Guided ML (https://www.cc.gatech.edu/~athomaz/papers/ThomazBreazeal-ICDL06.pdf)
-* Something from Crowd Flower?
-* Mixed Iniative Systems
-* adversarial participation
-	* MS Tay
-	* Resnick's cheap pseudonym's work
-	* Hartline's work
-	* Easley's online auction stuff? (not sure)
-* Why does a user give up their data?
-	* citizen science
-		* eBird
-	* captive audience
-		* recaptcha
-	* mutual benefit
-		* duo lingo, new amershi mixed initiative stuff
-	* bribery
-		* amazon mTurk (Tufecki paper?)
-
-### Week 6 : User-Centered Data Science & Quantitative UX Research
-* [Human-Computer Interaction and Knowldedge Discovery (HCI-KDD): What Is the Benefit of Bringing Those Two
-Fields to Work Together](https://link.springer.com/chapter/10.1007%2F978-3-642-40511-2_22) (*Andreas Holzinger*)
+* [Transparency and Socially Guided Machine Learning](https://www.cc.gatech.edu/~athomaz/papers/ThomazBreazeal-ICDL06.pdf) (*Andrea L. Thomaz*, *Cynthia Breazal*)
 
 ### Week 7 : Algorithmic Bias, Accountability, and Auditing
+#### Themes:
+* Algorithmic Bias,
+* Algorithmic Accountability
+* Algorithmic Auditing
+
+#### Discussion Prompts:
+* What is the difference between "user-centered" and "human-centered" and which best describes
+	each of the papers for this week?
+* What can (or should) we "audit" an algorithm for?
+* What is a good description of how biases can manifest themselves in the implementation or design of an automated or 
+algorithm driven system.
+
+#### Readings:
 * [Auditing Algorithms: Research Methods for Detecting Discrimination on Internet Platforms](https://pdfs.semanticscholar.org/b722/7cbd34766655dea10d0437ab10df3a127396.pdf)
 * [Algorithmic Accountability](http://www.tandfonline.com/doi/full/10.1080/21670811.2014.976411)
+* [“Be careful; things can be worse than they appear”: Understanding Biased Algorithms and Users’ Behavior around Them in Rating Platforms](http://social.cs.uiuc.edu/papers/eslami-ICWSM17-CameraReady.pdf) (*Motahhare Eslami*, * Kristen Vaccaro*, *Karrie Karahalios*, *Kevin Hamilton*)
+* [It's not a bug, it's a feature: how misclassification impacts bug prediction](https://dl.acm.org/citation.cfm?id=2486840) (*Kim Herzig*, *Sascha Just*, *Andreas Zeller*)
 
-### Week 8 : Concept Evolution (Mismatch) (http://ieeexplore.ieee.org/abstract/document/5694063/)
+### Week 8 : Crowd ML 1
+#### Themes:
+* Community-guided Learning
+* Citizen Science
 
-### Week 9 : Design Principles for Intelligent User Interfaces
+#### Discussion Prompts:
+* What are benefits to the user or the model that we derive from combining information from more than one user?
+	* What are the challenges?
+* What (if anything) do the users get in exchange for their effort or privacy violation when giving up information?
+* If some subset of the users in a crowd are providing incorrect or inadequate information (either because of malicious intent or misinformation), what kind of effect will this have on the system's ability to achieve it's purpose? First,
+think through the purpose of the system, then think through likely ways information could be incorrect or inadequate considering user intent, then think through the effect this will have on the model, finally how will the ultimate model effect the initial purpose.
 
-### Week 10 : Implenting User-Centered Design Principles
-* Descriptive Keyphrases for Text Visualization http://idl.cs.washington.edu/papers/keyphrases
+#### Readings:
+* [Local algorithms for interactive clustering](http://www.jmlr.org/papers/volume18/15-085/15-085.pdf) (*Pranjal Awasthi*, *Maria Florina Balcan*, *Konstantin Voevodski*)
+* [Crowd Synthesis: Extracting Categories and Clusters from Complex Data](http://www.cs.cmu.edu/afs/cs/Web/People/spdow/files/crowdsynthesis-cscw2014.pdf) (*Paul Andre*, *Aniket Kittur*, *Steven P. Dow*)
+* [Adaptively Learning the Crowd Kernel](http://edithlaw.ca/cs889/2015/reading/2011_ICML_TamLiuBelShamKal.pdf) (*Omer Tamuz*, *Ce Liu*, *Serge Belongie*, *Ohad Shamir*, *Adam Tauman Kalai*)
+* [Community-Guided Learning: Exploiting Mobile Sensor Users to Model Human Behavior](http://www.aaai.org/ocs/index.php/AAAI/AAAI10/paper/download/1933/2263)
+* [eBird: A Human/Computer Learning Network for Biodiversity Conservation and Research](https://www.aaai.org/ocs/index.php/IAAI/IAAI-12/paper/viewFile/4880/5433) (*Steve Kelling*, *Jeff Gerbracht*, *Daniel Fink*, *Carl Lagoze*, *Weng-Keen Wong*, *Jun Yu*, *Theodoros Damoulas*, *Carla Gomes*)
+
+### Week 9 : Crowd ML 2
+#### Themes:
+* Crowd Work
+* Grounded Theory
+* Model Diagnostics
+
+#### Discussion Prompts:
+* Why is it important to make turk work salient in the automated systems that depend on crowd workers?
+* How can human knowledge compliment automated knowledge discovery and vice versa.
+* What are important design decisions that should be made when eliciting high quality information for the crowd for the 
+purpose of training a model.
+
+#### Readings:
+* [Human Intelligence *Needs* Artificial Intelligence](http://edithlaw.ca/cs889/2015/reading/weld-hcomp11.pdf)
+* [Turkopticon: Interrupting Worker Invisibility in Amazon Mechanical Turk](http://edithlaw.ca/cs889/2015/reading/turkopticon.pdf) (*Lilly Irani*, *M. Six Silberman*)
+* [Human-Computer Interaction and Knowledge Discovery (HCI-KDD): What Is the Benefit of Bringing Those Two
+Fields to Work Together](https://link.springer.com/chapter/10.1007%2F978-3-642-40511-2_22) (*Andreas Holzinger*)
+* [CrowdFlower: What I learned from labeling 1 million images](https://s3.amazonaws.com/cambo-general/crowdflower_image_annotation_guide.pdf)
+* [Machine Learning and Grounded Theory Method: Convergence, Divergence, and Combination](https://dl.acm.org/citation.cfm?id=2957280)
+* [Topic Model Diagnostics: Assessing Domain Relevance via Topical Alignment](http://idl.cs.washington.edu/papers/topic-model-diagnostics/)
+
+### Week 10 : Design Principles for Intelligent User Interfaces
+#### Themes:
+* Keyphrases
+* User Feedback
+* Explanatory Debugging
+
+#### Discussion Prompts:
+* What is an intelligent user interface and what effect does user feedback have on the system behavior?
+* How could keyphrases be made practical in applications of text mining? Be explicit about what this work process might look like.
+* How can the research process used to create design principles for explanatory debugging be applied to other 
+	domains we have discussed throughout this course?
+
+#### Readings:
+* [Integrating Rich User Feedback into Intelligent User Interfaces](http://openaccess.city.ac.uk/14847/8/stumpfIUI08_camera_amended.pdf)
+* [Descriptive Keyphrases for Text Visualization](http://idl.cs.washington.edu/papers/keyphrases
+)
+* [Principles of Explanatory Debugging to Personalize Interactive Machine Learning](Principles of Explanatory Debugging to Personalize Interactive Machine Learning)
 
 
-### Extra Themes : 
+### Additional Themes : 
 * Aligning Human understanding with model representation (Democratic ML)
 	* http://idl.cs.washington.edu/papers/topic-model-diagnostics
 	* Socially Guided ML
@@ -196,3 +268,6 @@ Fields to Work Together](https://link.springer.com/chapter/10.1007%2F978-3-642-4
 * Algorithmic Bias
 	* http://web.engr.illinois.edu/~eslamim2/
 * Algorithmic Authority (Catie Lustig)
+* User-Centered Data Science & Quantitative UX Research
+* Concept Evolution, Drift, and Mismatch (http://ieeexplore.ieee.org/abstract/document/5694063/)
+* [Comparing Grounded Theory and Topic Modeling: Extreme Divergence or Unlikely Convergence?](https://www.shionguha.net/wp-content/uploads/2016/04/asi23786.pdf) (*Eric P.S. Baumer*, *David Mimno*, *Shion Guha*, *Emily Quan*, *Geri K. Gay*)
