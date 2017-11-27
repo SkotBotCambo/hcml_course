@@ -47,7 +47,7 @@ that explores HCML in one of the following ways:
   the design of the machine learning components of the system to address a user experience challenge or a novel user task
 * researching the design and implementation of an interactive machine learning system which might address
   some of the issues with automated learning systems discussed in class including (but not limited to) algorithmic bias, algorithmic accountability, and model transparency.
-* makes explicit through proof or demonstration an assumption used in the design of a learning algorithm which can result in one of the issues with AI and ML algorithms discussed in class (e.g.: algorithmic bias)
+* makes explicit through proof or demonstration an assumption used in the design of a learning algorithms which can result in one of the issues with AI and ML algorithms discussed in class (e.g.: algorithmic bias, concept evolution)
 
 Students may also propose an alternative to one of these research paper formats.
 

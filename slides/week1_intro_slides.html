@@ -1,18 +1,98 @@
+<!doctype html>
 <html>
 	<head>
-		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/white.css">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>EECS 495: HCML</title>
+
+		<link rel="stylesheet" href="reveal.js/css/reveal.css">
+		<link rel="stylesheet" href="reveal.js/css/theme/modified_solar.css">
+		<link href="https://afeld.GitHub.io/emoji-css/emoji.css" rel="stylesheet">
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="reveal.js/lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'reveal.js/css/print/pdf.css' : 'reveal.js/css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
 	</head>
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>Human-Centered Machine Learning</section>
-				<section>Slide 2</section>
+								<section>
+					<h3>Human-Centered Machine Learning</h1>
+					<!-- add a fun image -->
+					<p>Scott Allen Cambo</p>
+					<p><a href="https://scottofthescience.github.io/hcml_course/">Course Website: https://scottofthescience.github.io/hcml_course/</a></p>
+				</section>
+
+				<section>
+					<h3>Outline</h3>
+					<ol>
+						<li>Why HCML?</li>
+						<li>Why now HCML?</li>
+						<li>How HCML?</li>
+						<li>Course Outline</li>
+					</ol>
+				</section>
+
+				<section>
+					<h3>Why do we study Machine Learning?</h3>
+					<aside class="notes" data-markdown>
+						Get the class grounded in the 
+						ultimate purpose of this area of 
+						computer science. Students should be out 
+						of the headspace where the purpose
+						is the "cool" factor of ML/AI/Data Science.
+					</aside>
+				</section>
+
+				<section>
+					<h3>Who uses Machine Learning?</h3>
+					<aside class="notes" data-markdown>
+						Start introducing the idea 
+						that 
+						* a data scientist
+						is not necessarily a domain 
+						expert
+						* a domain expert
+						is not necessarily an end-user
+						* an end-user is not necessarily the only person who is affected by the machine learning
+					</aside>
+						
+				</section>
+
+				<section>
+					<h3>How is Machine Learning "used"?</h3>
+					<aside class="notes" data-markdown>
+						
+					</aside>
+				</section>
 			</div>
 		</div>
-		<script src="js/reveal.js"></script>
+
+		<script src="reveal.js/lib/js/head.min.js"></script>
+		<script src="reveal.js/js/reveal.js"></script>
+
 		<script>
-			Reveal.initialize();
+			// More info about config & dependencies:
+			// - https://GitHub.com/hakimel/reveal.js#configuration
+			// - https://GitHub.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				slideNumber:true,
+				transition:'fade',
+				dependencies: [
+					{ src: 'reveal.js/plugin/markdown/marked.js' },
+					{ src: 'reveal.js/plugin/markdown/markdown.js' },
+					{ src: 'reveal.js/plugin/notes/notes.js', async: true },
+					{ src: 'reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
 		</script>
 	</body>
 </html>
