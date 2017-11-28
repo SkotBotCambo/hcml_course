@@ -259,6 +259,10 @@ Fields to Work Together](https://link.springer.com/chapter/10.1007%2F978-3-642-4
 )
 * [Principles of Explanatory Debugging to Personalize Interactive Machine Learning](Principles of Explanatory Debugging to Personalize Interactive Machine Learning)
 
+### Additional Resources:
+* [*Fairness In Machine Learning*](https://fairmlclass.github.io/) class taught by Moritz Hardt at UC Berkeley
+* [*Human-in-the-loop Systems*](http://edithlaw.ca/cs889/2014/index.html) class taught by Edith Law at University of Toronto
+* [*How Quantitative UX Research Differs from Data Analytics*](https://medium.com/facebook-research/how-quantitative-ux-research-differs-from-data-analytics-1bbf0903768b) a blog post by Facebook employees.
 
 ### Additional Themes : 
 * Aligning Human understanding with model representation (Democratic ML)
