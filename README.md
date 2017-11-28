@@ -81,9 +81,11 @@ and the presenter can integrate them into the weekly presentation
 * Common mistakes in machine learning
 
 #### Discussion Prompt : 
-* **How can Machine Learning make an aspect of life better?** Don't overthink this. It can realy be any aspect of anybody's life.
-* **Can you think of an example of someone doing/attempting to do this?**
-* **How do we evaluate this example's performance in making this aspect of life better?**
+* What are the different ways that people envision using AI and how does machine learning fit into
+these ideas?
+* How do users and their mental models relate to machine learning and AI?
+* What are the common pitfalls of machine learning that Domingos' presents and how
+might a "user" address or remedy these challenges?
 
 #### Readings :
 * [Human-Centered Machine Learning (The Google Approach)](https://medium.com/google-design/human-centered-machine-learning-a770d10562cd) (*Josh Lovejoy*, *Jess Holbrook*)
