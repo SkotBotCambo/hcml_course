@@ -90,7 +90,7 @@ and the presenter can integrate them into the weekly presentation
 * [Human-Cent*r*ed Machine Learning (The Academic Approach)](https://medium.com/human-centered-machine-learning/what-is-human-centred-machine-learning-a2f8f8170f73) (*Marco Gillies*)
 * [Mental Models, Chapter 1, Some Observations On Mental Models](https://ar264sweeney.files.wordpress.com/2015/11/norman_mentalmodels.pdf) (*Don Norman*)
 * [A Few Useful Things To Know About Machine Learning](https://homes.cs.washington.edu/~pedrod/papers/cacm12.pdf) (*Pedro Domingos*)
-* [Interactive Knowledge Discovery](https://link.springer.com/chapter/10.1007/978-3-319-69775-8_1)
+* [Human Computer Integration *versus* Powerful Tools](https://dl.acm.org/citation.cfm?id=3051137) (*Umer Farooq*, *Jonathan Grudin*, *Ben Shneiderman*, *Patti Maes*, *Xiangshi Ren*)
 
 
 ### Week 2 : Interactive Machine Learning 1 : Introduction
