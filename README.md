@@ -93,6 +93,7 @@ might a "user" address or remedy these challenges?
 * [Mental Models, Chapter 1, Some Observations On Mental Models](https://ar264sweeney.files.wordpress.com/2015/11/norman_mentalmodels.pdf) (*Don Norman*)
 * [A Few Useful Things To Know About Machine Learning](https://homes.cs.washington.edu/~pedrod/papers/cacm12.pdf) (*Pedro Domingos*)
 * [Human Computer Integration *versus* Powerful Tools](https://dl.acm.org/citation.cfm?id=3051137) (*Umer Farooq*, *Jonathan Grudin*, *Ben Shneiderman*, *Patti Maes*, *Xiangshi Ren*)
+* (optional) [Machine Bias: *There’s software used across the country to predict future criminals. And it’s biased against blacks.*](https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing) (*Julia Angwin*, *Jeff Larson*, *Surya*, *MattuLauren Kirchner*)
 
 
 ### Week 2 : Interactive Machine Learning 1 : Introduction
@@ -263,6 +264,7 @@ Fields to Work Together](https://link.springer.com/chapter/10.1007%2F978-3-642-4
 * [*Fairness In Machine Learning*](https://fairmlclass.github.io/) class taught by Moritz Hardt at UC Berkeley
 * [*Human-in-the-loop Systems*](http://edithlaw.ca/cs889/2014/index.html) class taught by Edith Law at University of Toronto
 * [*How Quantitative UX Research Differs from Data Analytics*](https://medium.com/facebook-research/how-quantitative-ux-research-differs-from-data-analytics-1bbf0903768b) a blog post by Facebook employees.
+* [AlgorithmTips.org](http://algorithmtips.org/) a website that Professor Nick Diakopolous started to keep tracking of where algorithms are used in government.
 
 ### Additional Themes : 
 * Aligning Human understanding with model representation (Democratic ML)
