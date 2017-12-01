@@ -171,7 +171,6 @@ might a "user" address or remedy these challenges?
 * Model / Data Visualization
 * Model Interpretabiity
 * [Designing for uncertainty](http://visualization.ischool.uw.edu/hci_uncertainty/)
-* Explainable AI
 
 #### Discussion Prompts:
 
@@ -262,7 +261,9 @@ Fields to Work Together](https://link.springer.com/chapter/10.1007%2F978-3-642-4
 
 ### Additional Resources:
 * [*Fairness In Machine Learning*](https://fairmlclass.github.io/) class taught by Moritz Hardt at UC Berkeley
+* [*A Course on Fairness, Accountability and Transparency in Machine Learning*](https://geomblog.github.io/fairness/) curriculumn by the GIAN program of the Government of India
 * [*Human-in-the-loop Systems*](http://edithlaw.ca/cs889/2014/index.html) class taught by Edith Law at University of Toronto
+* [*Interactive Machine Learning*](http://iml.media.mit.edu/) class taught at MIT
 * [*How Quantitative UX Research Differs from Data Analytics*](https://medium.com/facebook-research/how-quantitative-ux-research-differs-from-data-analytics-1bbf0903768b) a blog post by Facebook employees.
 * [AlgorithmTips.org](http://algorithmtips.org/) a website that Professor Nick Diakopolous started to keep tracking of where algorithms are used in government.
 
