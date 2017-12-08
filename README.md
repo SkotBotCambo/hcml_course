@@ -83,7 +83,7 @@ and the presenter can integrate them into the weekly presentation
 #### Discussion Prompt : 
 * What are the different ways that people envision using AI and how does machine learning fit into
 these ideas?
-* How do users and their mental models relate to machine learning and AI?
+* How do you see users and their mental models relate to machine learning and AI?
 * What are the common pitfalls of machine learning that Domingos' presents and how
 might a "user" address or remedy these challenges?
 
@@ -103,7 +103,8 @@ might a "user" address or remedy these challenges?
 
 #### Discussion Prompt:
 * What are some of the trade-offs that are made to make an ML model suitable for interactivity?
-* Describe the user experience for data labeling.
+* Describe some of the user experiences for data labeling.
+
 
 #### Readings:
 * [Power to the People: The Role of Humans in Interactive ML](https://www.aaai.org/ojs/index.php/aimagazine/article/view/2513/2456) (*Saleema Amershi, Maya Cakmak, Bradley Knox, Todd Kulesza*)
@@ -142,7 +143,8 @@ might a "user" address or remedy these challenges?
 
 #### Discussion Prompts:
 * From a user perspective, what makes apprenticeship learning so different from active learning?
-* What does the state and action space represent in each of these papers
+* Describe the state and action space represent in each of these papers.
+
 #### Readings:
 * [A survey of robot learning from demonstration](http://edithlaw.ca/cs889/2015/reading/09ras-brenna.pdf)
 * [Towards Health Recommendation Systems: An Approach for Providing Automated Personalized Health Feedback from Mobile Data](https://link.springer.com/chapter/10.1007/978-3-319-51394-2_26/fulltext.html) (*Mashfiqui Rabbi*, *Min Hane Aung*, *Tanzeem Choudhury*)
@@ -156,9 +158,11 @@ might a "user" address or remedy these challenges?
 * incremental and online learning
 
 #### Discussion Prompt:
+* What is incremental learning and what is online learning? Why do these areas of ML research aid the model personalization process?
+* How might we decide to use either active learning, semi-supervised learning, or community similarity approaches for the purpose
+of model personalization? To help reason about this choose a specific application domain (many of these papers chose activity recognition) to reason about the decision.
 
 #### Readings:
-* [Towards Health Recommendation Systems: An Approach for Providing Automated Personalized Health Feedback from Mobile Data](https://link.springer.com/chapter/10.1007/978-3-319-51394-2_26/fulltext.html) (*Mashfiqui Rabbi*, *Min Hane Aung*, *Tanzeem Choudhury*)
 * [Personalized Spam Filtering with Semi-supervised Classifier Ensemble](https://dl.acm.org/citation.cfm?id=1249088)
 * [Improving activity classification for health applications on mobile devices using active and semi-supervised learning](http://ieeexplore.ieee.org/abstract/document/5482296/) (*Brent Longstaff*, *Sasank Reddy*, *Deborah Estrin*)
 * [Enabling large-scale human activity inference on smartphones using community similarity networks](http://www.cs.odu.edu/~cs441/Papers/sense-003.pdf) (*Nicholas Lane*, *Ye Xu*, *Hong Lu*, *Shaohan Hu*, *Tanzeem Choudhury*, *Andrew Campbell*, *Feng Zhao*)
@@ -173,6 +177,8 @@ might a "user" address or remedy these challenges?
 * [Designing for uncertainty](http://visualization.ischool.uw.edu/hci_uncertainty/)
 
 #### Discussion Prompts:
+* What roles do interpretability and visualization play in helping a model to be truly "transparent"?
+* How do multiple "views" help users to better understand data and models based on it.
 
 #### Readings:
 * [Interpretation and trust: designing model-driven visualizations for text analysis](https://dl.acm.org/citation.cfm?id=2207738) (*Jason Chuang*, *Daniel Ramage*, *Christopher Manning*, *Jeffrey Heer*)
@@ -191,7 +197,7 @@ might a "user" address or remedy these challenges?
 #### Discussion Prompts:
 * What is the difference between "user-centered" and "human-centered" and which best describes
 	each of the papers for this week?
-* What can (or should) we "audit" an algorithm for?
+* What can we "audit" an algorithm for?
 * What is a good description of how biases can manifest themselves in the implementation or design of an automated or 
 algorithm driven system.
 
@@ -229,7 +235,7 @@ think through the purpose of the system, then think through likely ways informat
 #### Discussion Prompts:
 * Why is it important to make turk work salient in the automated systems that depend on crowd workers?
 * How can human knowledge compliment automated knowledge discovery and vice versa.
-* What are important design decisions that should be made when eliciting high quality information for the crowd for the 
+* What are important design decisions that should be made when eliciting high quality information from the crowd for the 
 purpose of training a model.
 
 #### Readings:
@@ -270,7 +276,6 @@ Fields to Work Together](https://link.springer.com/chapter/10.1007%2F978-3-642-4
 ### Additional Themes : 
 * Aligning Human understanding with model representation (Democratic ML)
 	* http://idl.cs.washington.edu/papers/topic-model-diagnostics
-	* Socially Guided ML
 	* Domain Drive Data Mining (D3M) http://ieeexplore.ieee.org/abstract/document/4733924/
 		* importance of domain expertise/knowledge in analytic task
 		* Perceptual (Re)learning http://ieeexplore.ieee.org/abstract/document/4216985/
