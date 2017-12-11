@@ -116,7 +116,8 @@ might a "user" address or remedy these challenges?
 * [A Few Useful Things To Know About Machine Learning](https://homes.cs.washington.edu/~pedrod/papers/cacm12.pdf) (*Pedro Domingos*)
 * [Human Computer Integration *versus* Powerful Tools](https://dl.acm.org/citation.cfm?id=3051137) (*Umer Farooq*, *Jonathan Grudin*, *Ben Shneiderman*, *Patti Maes*, *Xiangshi Ren*)
 * (optional) [Machine Bias: *There’s software used across the country to predict future criminals. And it’s biased against blacks.*](https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing) (*Julia Angwin*, *Jeff Larson*, *Surya*, *MattuLauren Kirchner*)
-
+<> (possibly consider including the activity recognition paper that speaks to folk theories of activity tracking technology use
+and why that appears to matter)
 
 ### Week 2 : Interactive Machine Learning 1 : Introduction
 #### Themes Covered:
@@ -135,8 +136,6 @@ might a "user" address or remedy these challenges?
 * [Machine Teaching: An Inverse Problem to Machine Learning and an Approach Toward Optimal Education](http://pages.cs.wisc.edu/~jerryzhu/machineteaching/pub/MachineTeachingAAAI15.pdf) (*Xiaojin Zhu*)
 * [Interactive Machine Learning](http://edithlaw.ca/cs889/2014/reading/InteractiveMachineLearning.pdf) (*Jerry Alan Fails*, *Dan R. Olsen Jr.*)
 * [Toward harnessing user feedback for machine learning](https://dl.acm.org/citation.cfm?id=1216316)
-
-
 
 ### Week 3 : Interactive Machine Learning 1 : Active Learning
 #### Themes covered:
