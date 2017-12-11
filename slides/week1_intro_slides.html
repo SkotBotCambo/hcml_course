@@ -24,7 +24,7 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-								<section>
+				<section>
 					<h3>Human-Centered Machine Learning</h1>
 					<!-- add a fun image -->
 					<p>Scott Allen Cambo</p>
@@ -32,47 +32,405 @@
 				</section>
 
 				<section>
-					<h3>Outline</h3>
 					<ol>
-						<li>Why HCML?</li>
-						<li>Why now HCML?</li>
-						<li>How HCML?</li>
-						<li>Course Outline</li>
+						<li style="font-size:0.6em;">Why combine HCI and ML?
+							<ul>
+								<li style="font-size:0.6em;">ML algorithms often create models which represent subjective and human concepts</li>
+								<li style="font-size:0.6em;">ML algorithms are often used to replace human tasks</li>
+								<li style="font-size:0.6em;">There are strengths and weaknesses to both computational and human intelligence</li>
+							</ul>
+						</li>
+						<li style="font-size:0.6em;">How does software learn about the real world? <i>Pedro Domingos</i>
+							<ul>
+								<li style="font-size:0.6em;">Representation, Evaluation, Optimization</li>
+							</ul>
+						</li>
+						<li style="font-size:0.6em;">How do people understand and make sense of computers? <i>Don Norman</i>
+							<ul>
+								<li style="font-size:0.6em;">Belief System, Observability, Predictive Power</li>
+							</ul>
+						</li>
+						<li style="font-size:0.6em;">Course Outline
+							<ul>
+								<li style="font-size:0.6em;">Assignments</li>
+								<li style="font-size:0.6em;">Timeline</li>
+							</ul>
+						</li>
 					</ol>
-				</section>
 
-				<section>
-					<h3>Why do we study Machine Learning?</h3>
 					<aside class="notes" data-markdown>
-						Get the class grounded in the 
-						ultimate purpose of this area of 
-						computer science. Students should be out 
-						of the headspace where the purpose
-						is the "cool" factor of ML/AI/Data Science.
+						Why combine HCI and ML?
+						* ML algorithms create models which represent innately human and subjective concepts
+						* ML algorithms are often used to augment or replace an innately human task (i.e.: making an important decision like who should get admitted to a good college or how long a prison sentence should be)
+						* Some tasks are incredibly difficult for a computer and easy for a human (we should understand better how to leverage that)
+
+						Where do we begin?
+						* We want to maximize our understanding of both computational and human challenges
+
+						* This looking at both the model representation and human cognitive representation of 
+							intelligent systems. We'll talk about this more with respect to Don Norman's chapter on mental models
+
+						* There are still a great many things that humans can learn and reason about which AI and ML algorithms find difficult or impossible. If we can understand what makes the computational problem
+						difficult and in what context humans can aid the computational process 
+						while still getting the benefits of a computational process, 
+						then we can design systems that accomplish some truly amazing tasks. 
+
+						* Start by understanding the problems that arise 
+						* integration vs. partner vs. tool
+						* seamless vs. seamful design
+						* analytic tool for analytic experts
+						* terminology of mental models and system models
+						* walking through this terminology with 
+						intelligent systems
+
+						What makes application of ML and AI challenging *and can human knowledge fix this?*
+						* Domingos's paper
+						* Schneiderman's argument
+						* Maes' argument
+
+						Course Outline
+						* assignments
+						* participation
+						* readings
 					</aside>
 				</section>
 
 				<section>
-					<h3>Who uses Machine Learning?</h3>
+					<h3>What are some of the more salient and obvious ways that we use machine learning today?</h3>
+					<img src="./img/week1_intro_img1.png" class="fragment">
+
 					<aside class="notes" data-markdown>
-						Start introducing the idea 
-						that 
-						* a data scientist
-						is not necessarily a domain 
-						expert
-						* a domain expert
-						is not necessarily an end-user
-						* an end-user is not necessarily the only person who is affected by the machine learning
+						just have folks list things off.
+						lead to "what are the ways we don't think about?"
+
+						potential class exercise:
+							Each person take one of these companies and write a quick description of the 
+							product or system that uses AI or ML and also the task or problem it helps with
 					</aside>
-						
 				</section>
 
 				<section>
-					<h3>How is Machine Learning "used"?</h3>
+					<img width="50%" height="50%" src="http://mediad.publicbroadcasting.net/p/kalw/files/201611/Weapons-of-Math-Destruction-for-WEB.png">
+					<p style="font-size:0.7em;"><i>The recent proliferation in big data models has gone 
+						largely unnoticed by the average person, but it’s safe to say that most 
+						important moments where people interact with large bureaucratic systems 
+						now involve an algorithm in the form of a scoring system. <b>Getting into 
+						college, getting a job, being assessed as a worker, getting a credit card 
+					or insurance, voting, and even policing are in many cases done algorithmically.</b></i> 
+					- <a href="https://www.theguardian.com/technology/2017/jul/16/how-can-we-stop-algorithms-telling-lies">
+					Cathy O'Neill article for The Guardian</a></p>
+
 					<aside class="notes" data-markdown>
-						
+						These are things that we don't often think about.
+
+						There are two things of note here:
+						1. All of the algorithmic bureaucracy here is specifically done with predictive modeling or rather machine learning.
+
+						2. Each scenario is deeply subjective and requires human understanding at its core.
 					</aside>
 				</section>
+
+				<section>
+					<h3>Characteristics of a <i>Weapon of Math Destruction</i></h3>
+					<ul>
+						<li>Scales quickly causing large impact</li>
+						<li>Opaque systems</li>
+						<li>Weak representations of real world phenomenon</li>
+						<li>Require constant feedback for optimization and validation</li>
+						<li>Have a disproportionate effect on low income populations</li>
+					</ul>
+				</section>
+
+				<section>
+					<h3>AlgorithmTips.org</h3>
+
+					<aside class='notes' data-markdown>
+						Algorithmic processes are being used in many areas of government without our knowledge.
+						This is basically a way of keeping track of the ones that we know of so that
+						if our knowledge of what ML methods are appropriate change, we can find all the
+						government processes that rely on them and either update them or call 
+						them into question.
+					</aside>
+				</section>
+
+				<section>
+					<h3>HCI &cup; ML</h3>
+					<div style="float:left; width:40%">
+						<h4 style="text-align:center;">HCI</h4>
+						<ul class="fragment">
+							<li style="font-size:0.6em;">how people use and understand technology</li>
+							<li style="font-size:0.6em;">user-centered design and evaluation</li>
+							<li style="font-size:0.6em;">social impact of technology</li>
+						</ul>
+					</div>
+					<div style="float:right; width:40%">
+						<h4 style="text-align:center;">ML</h4>
+						<ul class="fragment">
+							<li style="font-size:0.6em;">Can recognize patterns quickly and at a large scale</li>
+							<li style="font-size:0.6em;">Can operate with or without human interaction</li>
+							<li style="font-size:0.6em;"><strike>standardizes decision making thus mitigating human bias</strike></li>
+							<li style="font-size:0.6em;">standardizes decision making <b>with human bias</b></li>
+						</ul>
+					</div>
+
+					<aside class='notes' data-markdown>
+						HCML is a kind of union between the research and application of machine learning with 
+						the ideas from human-computer interaction. 
+
+						Machine learning research benefits from
+						the HCI that studies...
+
+						The ML research enables computation that can...
+
+						the extent to which ML encodes human bias is both a benefit and a curse. Human bias 
+						is somewhat inevitable and generally allows machine learning to understand the world
+						as people do. As a result, it is not objective, but at least we can be explicit about
+						the biases it is optimized for.
+					</aside>
+				</section>
+
+				<section>
+					<h3>Human-Centered Machine Learning</h3>
+					<ul>
+						<li>Interactive Machine Learning (weeks 2-4)</li>
+						<li>Model Personalization (week 5)</li>
+						<li>Model Transparency (week 6)</li>
+						<li>Algorithmic Bias, Accountability, and Auditing (week 7)</li>
+						<li>Crowd ML (weeks 8 and 9)</li>
+						<li>Design Principles (week 10)</li>
+					</ul>
+					<aside class='notes' data-markdown>
+						* how we provide feedback to ML systems that can be used for validation and correction
+						* How we can use interaction and ML
+						to allow ML systems to understand
+						a concept the way that we understand it for a personal. An example is in
+						personal informatics, but we'll talk about others.
+						* when we talk about model transparency, we are talking about a few things. 
+							1 Our ability to understand why a model makes a certain prediction. 
+							2 the way we communicate what EXACTLY the model understands to the user.
+								* This can mean visualization of the training data, the predictions,
+								  or even the formal data structure of the model itself (such as a decision tree).
+							3 Interactivity can help in transparency by allowing us to manipulate parameters that uncover the way the model works effectively testing it.
+							4 comparing multiple models
+						* Algorithmic biases, how we track them, how we uncover what they are
+						* Crowd ML: how we might get a better understanding of a concept by enabling feedback from multiple people
+						* Design Principles that allow us to do better work in ML
+					</aside>
+				</section>
+
+				<section>
+					<h3>Where do we begin to combine HCI and ML?</h3>
+					<ol>
+						<li><i>A Few Useful Things to Know about Machine Learning</i> - Pedro Domingos
+						</li>
+
+						<li><i>Observations of Mental Models</i> - Don Norman</li>
+					</ol>
+
+					<aside class="notes" data-markdown>
+						These two papers are a good start because they make explicit terminology
+						and phenomenon that become really important when we begin to apply the knowledge
+						we get from ML, AI, and HCI classes.
+
+						What is interesting is that Domingos is making explicit the folk knowledge we learn
+						when applying machine learning and Norman is talking about
+						the structure of folk knowledge itself from the perspective of the user of a technology
+
+						Throughout this class we should be thinking about two meta-roles for users:
+						* The user as an analyst applying ML methods and possibly designing and building ML systems, but not necessarily the theorist behind the ML itself
+						* The user as a consumer of an intelligent system product
+
+						how do you suppose these differ when we think about human-centered machine learning?
+					</aside>
+				</section>
+
+				<section>
+					<h3>Domingos's 12 Key Lessons</h3>
+				</section>
+
+				<section>
+					<h3>Domingos's 12 Key Lessons</h3>
+					<p>1. Learning = Representation + Evaluation + Optimization</p>
+
+					<aside class="notes" data-markdown>
+						Representation : representations dictate the hypothesis space / model structure affects what can be learned / “represented”
+
+						Evaluation: evaluation methods are important both for the learning process itself (think SVM update rule) and in determining how well a learned model will perform
+
+						Optimization: optimization is the idea of going beyond the initial learning process to find the particular model which provides the optimal performance with respect to the evaluation process
+
+						These 3 ways of looking at a machine learning task are very useful in understanding how many human (and subjective) decisions are made in the process of creating a machine learning model
+					</aside>
+				</section>
+
+				<section>
+					<h3>Domingos's 12 Key Lessons</h3>
+					<p>2. It's Generalization That Counts</p>
+
+					<aside class="notes" data-markdown>
+						Task : Contamination of your classifier by test data can occur in insidious ways, e.g., if you use test data to tune parameters and do a lot of tuning. (have the class explain this statement and why this can be very important
+					</aside>
+				</section>
+
+				<section>
+					<h3>Domingos's 12 Key Lessons</h3>
+					<p>3. Data Alone Is Not Enough</p>
+
+					<aside class="notes" data-markdown>
+						* Every learner must embody some knowledge or assumptions beyond the data it’s given in order to generalize beyond it.
+						* No Free Lunch Theorem
+							* What does it imply?
+							* How do we figure out what is appropriate to bias our algorithms toward?
+							* **If we have knowledge** about probabilistic dependencies…
+							* **If we have knowledge** about what kinds of preconditions are required by each class…
+							* **If we have knowledge** about what makes examples similar in our domain…
+						* Data alone is not enough. We need knowledge in order to build the learning process. The “knowledge” that Domingos is speaking of can and should be acquired through a human-centered process.
+					</aside>
+				</section>
+
+				<section>
+					<h3>Domingos's 12 Key Lessons</h3>
+					<p>4. Overfitting Has Many Faces</p>
+
+					<aside class="notes" data-markdown>
+						* What does it mean for a classifier to generalize well?
+						* Domingos says “In the early days of machine learning, the need to keep training and test data separate was not widely appreciated. This was partly because, if the learner has a very limited representation (e.g., hyperplanes), the difference between training and test error may not be large. But with very flexible classifiers (e.g., decision trees), or even with linear classifiers with a lot of features, strict separation is mandatory.” 
+							* Why does a limited representation mean that test error and training error were similar?
+						* **Bias** is the tendency to learn the same wrong thing
+						* **Variance** is the tendency to learn random things regardless of the signal
+						* Nearest Neighbors:
+							* Should we expect bias to be low or high?
+							* Should we expect variance to be low or high?
+						* “strong false assumptions can be better than weak true ones, because a learner with the latter needs more data to avoid overfitting.”
+							* Relates back to no free lunch theorem
+							* might be argument for a kind of design research which seeks to find the kind of information that will aid the machine learning task
+						* False Discover Rates as solution to multiple testing problem
+					</aside>
+				</section>
+
+				<section>
+					<h3>Domingos's 12 Key Lessons</h3>
+					<p>5. Intuition Fails In High Dimensions</p>
+
+					<aside class="notes" data-markdown>
+						* Curse Of Dimensionality
+							* What’s wrong with engineering a whole bunch of features?
+								* How do we build intuition for which features will help the learning task best
+						* "Blessing of non-uniformity"
+					</aside>
+				</section>
+				
+				<section>
+					<h3>Domingos's 12 Key Lessons</h3>
+					<p>6. Theoretical Guarantees Are Not What They Seem</p>
+
+					<aside class="notes" data-markdown>
+						* does not mean that if the hypothesis performs well on the training set of this size that it probably generalizes well
+						* means that with a big enough training set your learner has a high probability of returning a hypothesis that generalizes well OR it is unable to find a hypothesis that will be consistent
+						* *And, because of the bias-variance tradeoff we discussed above, if learner A is better than learner B given infinite data, B is often better than A given finite data.*
+						* *The main role of theoretical guarantees in machine learning is not as a criterion for practical decisions, but as a source of understanding and driving force for algorithm design. In this capacity, they are quite useful; indeed, the close interplay of theory and practice is one of the main reasons machine learning has made so much progress over the years. But caveat emptor: learning is a complex phenomenon, and just because a learner has a theoretical justification and works in practice doesn’t mean the former is the reason for the latter*
+					</aside>
+				</section>
+
+				<section>
+					<h3>Domingos's 12 Key Lessons</h3>
+					<p>7. Feature Engineering Is The Key</p>
+
+					<aside class="notes" data-markdown>
+						* Good features make less work for the learner
+						* Good features have to incorporate some intuition about the relationship
+						between the data and the target concept
+						* Is this still true for Deep Learning?
+					</aside>
+				</section>
+
+				<section>
+					<h3>Domingos's 12 Key Lessons</h3>
+					<p>8. More Data Beats A Cleverer Algorithm</p>
+
+					<aside class="notes" data-markdown>
+						* Collecting more data is often the easiest way to yield better results
+						* Determining the best data we collect is a good human-centered problem
+						* Thinking about fixed-size learners vs. non-parametric/non-fixed
+						* fixed size can only take advantage of so much data
+						* *In the end, the biggest bottleneck is not data or CPU cycles, but human cycles. In research papers, learners are typically compared on measures of accuracy and computational cost. But human effort saved and insight gained, although harder to measure, are often more important. This favors learners that produce human-understandable output (e.g., rule sets). And the organizations that make the most of machine learning are those that have in place an infrastructure that makes experimenting with many different learners, data sources and learning problems easy and efficient, and where there is a close collaboration between machine learning experts and application domain ones.*
+					</aside>
+				</section>
+					<h3>Domingos's 12 Key Lessons</h3>
+					<p>9. Learn Many Models Not Just One</p>
+
+					<aside class="notes" data-markdown>
+					* In the early days of machine learning, everyone had their favorite learner, together with some a priori reasons to believe in its superiority
+					* Ensemble methods are helpful for model personalization, model understanding, and resolve model bias
+					</aside>
+				<section>
+
+				<section>
+					<h3>Domingos's 12 Key Lessons</h3>
+
+					<p>10. Simplicity Does Not Imply Accuracy</p>
+
+					<aside class="notes" data-markdown>
+						* Is it fair for Occam’s Razor to contradict what we have learned so far about ML?
+					</aside>
+
+				</section>
+
+				<section>
+					<h3>Domingos's 12 Key Lessons</h3>
+					<p>11. Representable Does Not Imply Learnable</p>
+
+					<aside class="notes" data-markdown>
+						* but it's a good start
+					</aside>
+				</section>
+
+				<section>
+					<h3>Domingos's 12 Key Lessons</h3>
+					<p>12. Correlation Does Not Imply Causation</p>
+
+					<aside class="notes" data-markdown>
+						* duh
+						* important when reasoning about the model and what it can OR can't indicate
+					</aside>
+
+				</section>
+
+				<section>
+					<h3>How do we use domain knowledge in applying an ML algorithm?</h3>
+					<ul class="fragment">
+						<li>HCML research can help us to understand how to properly incorporate domain knowledge into the design of ML systems and algorithm</li>
+						<li>HCML research can help us design a system to properly yield the user or <i>practitioner</i>'s domain knowledge</li>
+					</ul>
+					<aside class="notes" data-markdown>
+						* Domain knowledge is where things get quite a bit more subjective.
+							* How often do data scientists or ML engineers also possess a necessary amount of domain knowledge for an application?
+					</aside>
+
+				<section>
+					<h3>Mental Models</h3>
+
+					<aside class="notes" data-markdown>
+						Now that we have a bit of an understanding of how ML should be applied and practice, 
+						we need to learn how to think about this from the perspective of an outsider
+						to the development of the system.  
+
+						* How does a consumer develop an understanding of a new technology?
+						* How do data scientists develop an understanding of a new algorithm or dataset?
+						* How do we work with each of these scenarios?
+					</aside>
+				</section>
+				<section>
+					<h3>The Hypothesis Space</h3>
+					<p>Things that can and can't be learned by particular classifiers</p>
+				</section>
+
+
+
+				<!-- Modeling A concept-->
+					<!-- How -->
+
+
 			</div>
 		</div>
 
