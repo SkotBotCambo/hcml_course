@@ -41,7 +41,7 @@ and algorithm research in a domain.
 Students will be required to complete the following assignments
 
 ### HCML Project
-Students will complete a final research paper (10 pages maximum)
+Students will complete a final research paper
 that explores HCML in one of the following ways:
 * researching a system of the students' creation which integrates user-centered design principles into
   the design of the machine learning components of the system to address a user experience challenge or a novel user task
@@ -50,6 +50,25 @@ that explores HCML in one of the following ways:
 * makes explicit through proof or demonstration an assumption used in the design of a learning algorithms which can result in one of the issues with AI and ML algorithms discussed in class (e.g.: algorithmic bias, concept evolution)
 
 Students may also propose an alternative to one of these research paper formats.
+
+The schedule and ruberic for the HCML project is as follows:
+* **5th week of class**: Students submit an introduction and literature review and/or methods section by the 
+	* This will be reviewed by the instructor as well as two other students in the class as part of a paper feedback exchange
+	* 5/5 points of the final grade for submitting a draft of reasonable enough quality to get helpful feedback
+	* 2/5 points for submitting a draft which is not of reasonable enough quality to get helpful feedback
+	* 0/5 points for not submitting
+* **7th week of class**: Students submit a methods section along with working code
+	* for an analytic project this generally means the jupyter notebooks or R Studio code describing the analytic process and working data pipeline. 
+	* For a systems project this will mean a prototype that is working well enough that the idea can be demonstrated even if further iterations are needed to effectively study that which will be the contribution of the final paper.
+	* 5/5 points for a methods section which communicates the process well enough for the feedback to focus on the process and not the writing. For 5 points, the students will also have a data pipeline or system that is working well enough to begin providing good analytic or design feedback.
+	* 4/5 points for a methods section which still requires feedback on how the method is communicated. For 4 points, the data pipeline or system should be demonstrable.
+	* 3/5 points for submitting any methods section and code
+	* Project
+* **9th week of class**: Students submit a full draft of their project
+	* 5/5 points for a draft which can yield good feedback
+	* 3/5 points for including all complete sections
+	* 1/5 points for submissions which do not include all major sections (introduction, methods, results, discussion, conclusion)
+* **Final week**: Complete submission
 
 The HCML project will need to have a rough draft and a poster and/or demo completed by the 10th week
 of class for a poster/demo session that will be open to the public. The final draft will need to be 
@@ -68,10 +87,13 @@ is to facilitate an on-going conversation about how the practice and research of
 can be more "human-centered".
 
 ### Reading Response and Discussion
-In order to better digest the readings, students will write a response to a weekly discussion
-prompt (provided in the reading schedule) using the readings. This response will need to be uploaded 
-by the Monday before class so that students will have a chance to read each others' responses
-and the presenter can integrate them into the weekly presentation
+In order to better digest the readings, students will write a response to each weekly discussion
+prompt (provided in the reading schedule) by making appropriate citations and connections to the current
+week's readings and those of previous weeks. Students should feel free to cite other sources, but these
+should not be a replacement for the required readings of the week. This response will need to be uploaded 
+by the Monday (subject to change) before class so that students will have a chance to read each others' responses
+and the presenter can integrate them into the weekly presentation. This exercise will provide
+students with the opportunity to get more comfortable with the writing and reflecting component of the class.
 
 ## Schedule
 ### Week 1 : Introduction
