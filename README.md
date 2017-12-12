@@ -114,10 +114,9 @@ might a "user" address or remedy these challenges?
 * [Human-Cent*r*ed Machine Learning (The Academic Approach)](https://medium.com/human-centered-machine-learning/what-is-human-centred-machine-learning-a2f8f8170f73) (*Marco Gillies*)
 * [Mental Models, Chapter 1, Some Observations On Mental Models](https://ar264sweeney.files.wordpress.com/2015/11/norman_mentalmodels.pdf) (*Don Norman*)
 * [A Few Useful Things To Know About Machine Learning](https://homes.cs.washington.edu/~pedrod/papers/cacm12.pdf) (*Pedro Domingos*)
+* [When Fitness Trackers Don'T 'Fit': End-user Difficulties in the Assessment of Personal Tracking Device Accuracy](https://dl.acm.org/citation.cfm?id=2804269) (*Rayoung Yang*, *Eunice Shin*, *Mark Newman*, *Mark Ackerman*)
 * [Human Computer Integration *versus* Powerful Tools](https://dl.acm.org/citation.cfm?id=3051137) (*Umer Farooq*, *Jonathan Grudin*, *Ben Shneiderman*, *Patti Maes*, *Xiangshi Ren*)
 * (optional) [Machine Bias: *There’s software used across the country to predict future criminals. And it’s biased against blacks.*](https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing) (*Julia Angwin*, *Jeff Larson*, *Surya*, *MattuLauren Kirchner*)
-<> (possibly consider including the activity recognition paper that speaks to folk theories of activity tracking technology use
-and why that appears to matter)
 
 ### Week 2 : Interactive Machine Learning 1 : Introduction
 #### Themes Covered:
