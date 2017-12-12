@@ -20,6 +20,7 @@
 			link.href = window.location.search.match( /print-pdf/gi ) ? 'reveal.js/css/print/pdf.css' : 'reveal.js/css/print/paper.css';
 			document.getElementsByTagName( 'head' )[0].appendChild( link );
 		</script>
+		<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 	</head>
 	<body>
 		<div class="reveal">
@@ -417,20 +418,109 @@
 
 						* How does a consumer develop an understanding of a new technology?
 						* How do data scientists develop an understanding of a new algorithm or dataset?
-						* How do we work with each of these scenarios?
+						* How do we conceptualize each of these scenarios?
 					</aside>
 				</section>
+
 				<section>
-					<h3>The Hypothesis Space</h3>
-					<p>Things that can and can't be learned by particular classifiers</p>
+					<h4>Terminology</h4>
+					<ul>
+						<li><b>Target System</b>: <i>the system or technology a person is learning or using</i></li>
+						<li><b>Conceptual Model</b> of target system:
+							<ul>
+								<li>invented to provide an appropriate representation of the target system</li>
+								<li>appropriate meaning <i>accurate, consistent, complete</i></li>
+								<li><i>conceptual models can be held by teachers of a system, designers of it, scientists, engineers.</i> Everyone has a conceptual model of the systems they interact with even if they themselves “created” it.</li>
+							</ul></li>
+						<li>user's <b>mental model</b> of target system:
+							<ul>
+								<li>mental models are naturally evolving through subsequent interactions</li>
+								<li>they don’t have to be technically accurate, but should be working and functional</li>
+							</ul></li>
+						<li><b>Scientist's conceptualization</b> of the mental model</li>
+					</ul>
 				</section>
 
+				<section>
+					<h4>Observations</h4>
+					<ol>
+						<li><b>Mental models are incomplete</b></li>
+						<li><b>People’s abilities to “run” their models are severely limited.</b></li>
+						<li><b>Mental models are unstable</b></li>
+						<li><b>Mental models do not have firm boundaries</b></li>
+						<li><b>Mental models are "unscientific"</b></li>
+						<li><b>Mental models are parsimonious</b></li>
+					</ol>
 
+					<aside class="notes" data-markdown>
+						1. Mental Models are incomplete
+						2. People’s abilities to “run” their models are severely limited.
+						3. Mental models are unstable: People forget the details of the system they are using, especially when those details (or the whole system) have not been used for some period.
+						4. Mental models do not have firm boundaries: similar devices and operations get confused with one another.
+						5. Mental models are “unscientific”: People maintain “superstitious” behavior patterns even when they know they are unneeded because they cost little in physical effort and save mental effort.
+						6. Mental models are parsimonious: Often people do extra physical operations rather than the mental planning that would allow them to avoid those actions; they are willing to trade-off extra physical action for reduced mental complexity. This is especially true where the extra actions allow one simplified rule to apply to a variety of devices, thus minimizing the chances for confusion.
+					</aside>
+				</section>
 
-				<!-- Modeling A concept-->
-					<!-- How -->
+				<section>
+					<h3><i>"Consider the problem of modeling some particular person’s mental model of some particular target system."</i> ~ Don Norman</h3>
 
+					<aside class="notes" data-markdown>
+						What does this mean exactly?
+					</aside>
+				</section>
 
+				<section>
+					<h3>Variable Terms</h3>
+					<ul>
+						<li>$$t=$$ Target System</li>
+						<li>$$C(t)=$$ Our conceptual model of the target system</li>
+						<li>$$M(t)=$$ user's mental model of target system</li>
+						<li>$$C(M(t))=$$ our conceptualization of the user's mental model of the target system</li>
+					</ul>
+				</section>
+
+				<section>
+					<h3>Belief System</h3>
+					<p><i>a person’s mental model reflects his or her beliefs about the physical system, acquired either through observation, instruction, or inference. The conceptual model of the mental model C(M(t)), should contain a model of the relevant parts of the person’s belief system</i></p>
+
+				</section>
+
+				<section>
+					<h3>Observability</h3>
+					<p><i>There should be a correspondence between the parameters and states of the mental model that are accessible to the person and the aspects and states of the physical system that the person can observe. In the conceptual model of the mental model, this means that there should be a correspondence between parameters and observable states of C(M(t)) and the observable aspects and states of t.</i></p>
+
+				</section>
+
+				<section>
+					<h3>Predictive Power</h3>
+					<p><i>The purpose of a mental model is to allow the person to understand and anticipate the behavior of a physical system. This means that the model must have predictive power, either by applying rules of inference or by procedural derivation (in whatever manner these properties may be realized in a person); in other words, it should be possible to “run” their models mentally. This means that conceptual mental model must also include a model of the relevant human information processing and knowledge structures that make it possible for the person to use a mental model to predict and understand the physical system.</i></p>
+				</section>
+
+				<section>
+					<h3>Identifiability (Greeno and Steiner '64)</h3>
+					<p><i>a useful model will have a correspondence between the parameters and states of the model and the operation of the target system.</i></p>
+				</section>
+
+				<section>
+					<h3>System Image</h3>
+					<p>The conceptual model upon which the entire system is designed and all manner of instruction and presentation of the system should be consistent.</p>
+					<ul>
+						<li>Learnability</li>
+						<li>Functionality</li>
+						<li>Usability</li>
+					</ul>
+				</section>
+
+				<section>
+					<h3><i>When Fitness Trackers Don't Fit</i></h3>
+					<p><i>Q: How do the concepts described by Norman play out in the observations described in this paper?</i></p>
+				</section>
+
+				<section>
+					<h3><i>When Fitness Trackers Don't Fit</i></h3>
+					<p><i>Q: How do you suspect Domingos's 12 key lessons are playing out based on the observations described in this paper?</i></p>
+				</section>
 			</div>
 		</div>
 
