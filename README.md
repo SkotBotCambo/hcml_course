@@ -294,6 +294,7 @@ Fields to Work Together](https://link.springer.com/chapter/10.1007%2F978-3-642-4
 * [AlgorithmTips.org](http://algorithmtips.org/) a website that Professor Nick Diakopolous started to keep tracking of where algorithms are used in government.
 
 ### Additional Themes : 
+* [Look here for inspiration on experiments to run](https://experiments.withgoogle.com/ai)
 * Aligning Human understanding with model representation (Democratic ML)
 	* http://idl.cs.washington.edu/papers/topic-model-diagnostics
 	* Domain Drive Data Mining (D3M) http://ieeexplore.ieee.org/abstract/document/4733924/
