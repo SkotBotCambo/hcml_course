@@ -134,6 +134,7 @@ might a "user" address or remedy these challenges?
 * [Designing Interactions for Robot Active Learners](http://edithlaw.ca/cs889/2015/reading/SL/cakmak10_tamd_active.pdf) (*Maya Cakmak*, *Crystal Chao*, *Andrea L. Thomaz*)
 * [Machine Teaching: An Inverse Problem to Machine Learning and an Approach Toward Optimal Education](http://pages.cs.wisc.edu/~jerryzhu/machineteaching/pub/MachineTeachingAAAI15.pdf) (*Xiaojin Zhu*)
 * [Machine Teaching: A New Paradigm for Building Machine Learning Systems](https://arxiv.org/abs/1707.06742) (*Patrice Y. Simard*, *Saleema Amershi*, *David M. Chickering*, *Alicia Edelman Pelton*, *Soroush Ghorashi*, *Christopher Meek*, *Gonzalo Ramos*, *Jina Suh*, *Johan Verwey*, *Mo Wang*, *John Wernsing*)
+* [Structured Labeling for Facilitating Concept Evolution in Machine Learning](https://www.microsoft.com/en-us/research/publication/structured-labeling-for-facilitating-concept-evolution-in-machine-learning/) (*Todd Kulesza*, *Saleema Amershi*, *Rich Caruana*, *Danyel Fisher*,*Denis Charles*)
 * [Interactive Machine Learning](http://edithlaw.ca/cs889/2014/reading/InteractiveMachineLearning.pdf) (*Jerry Alan Fails*, *Dan R. Olsen Jr.*)
 * [Toward harnessing user feedback for machine learning](https://dl.acm.org/citation.cfm?id=1216316)
 
