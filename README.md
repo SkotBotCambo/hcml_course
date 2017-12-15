@@ -308,3 +308,4 @@ Fields to Work Together](https://link.springer.com/chapter/10.1007%2F978-3-642-4
 * User-Centered Data Science & Quantitative UX Research
 * Concept Evolution, Drift, and Mismatch (http://ieeexplore.ieee.org/abstract/document/5694063/)
 * [Comparing Grounded Theory and Topic Modeling: Extreme Divergence or Unlikely Convergence?](https://www.shionguha.net/wp-content/uploads/2016/04/asi23786.pdf) (*Eric P.S. Baumer*, *David Mimno*, *Shion Guha*, *Emily Quan*, *Geri K. Gay*)
+* [Curriculum Learning](https://ronan.collobert.com/pub/matos/2009_curriculum_icml.pdf) (*Yoshua Bengio*)
