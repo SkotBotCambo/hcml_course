@@ -13,8 +13,7 @@ understanding of human behavior and how people interact with technology
 (i.e.: sociotechnical behavior). Students of 
 the Human-Centered Machine Learning course will help form a new way of 
 understanding and practicing the application of
-machine learning through a series of readings, discussions, design and 
-prototyping assignments, and a final project.
+machine learning through a series of readings, discussions, and a final project.
 
 ## Introduction
 
@@ -37,8 +36,12 @@ and algorithm research in a domain.
 		* 1. translating UX research into design principles that can be addressed with tweaks to the learning algorithm.
 		* 2. identifying assumptions that are made in the design of the learning algorithm and how they might (or might not) be challenged.
 
-## Assignments
-Students will be required to complete the following assignments
+## Assignments and Grading
+Below are the requirements and expectations of the class with the respective grade proportions.
+* Final Project (40%)
+* Class Presentation and Leading Discussion (20%)
+* Reading Response (20%)
+* Attendance and Class Participation (20%)
 
 ### HCML Project
 Students will complete a final research paper
@@ -74,7 +77,7 @@ The HCML project will need to have a rough draft and a poster and/or demo comple
 of class for a poster/demo session that will be open to the public. The final draft will need to be 
 completed at the beginning of finals week so that students can exchange and review each others' work.
 
-### Weekly Presentation
+### Class Presentation and Leading Discussion
 Students will lead discussion with a presentation twice in the quarter:
 1. One presentation will be leading a 45 minute discussion and presentation
 on research that is already included in the schedule. 
@@ -86,7 +89,7 @@ and enriches the conversation in human-centered machine learning. The purpose of
 is to facilitate an on-going conversation about how the practice and research of machine learning
 can be more "human-centered".
 
-### Reading Response and Discussion
+### Reading Response
 In order to better digest the readings, students will write a response to each weekly discussion
 prompt (provided in the reading schedule) by making appropriate citations and connections to the current
 week's readings and those of previous weeks. Students should feel free to cite other sources, but these
@@ -94,6 +97,17 @@ should not be a replacement for the required readings of the week. This response
 by the Monday (subject to change) before class so that students will have a chance to read each others' responses
 and the presenter can integrate them into the weekly presentation. This exercise will provide
 students with the opportunity to get more comfortable with the writing and reflecting component of the class.
+
+### Class Attendance and Participation
+In order to fully make the connections between the human-focused research and
+technology focused research in each week's readings it is important to participate in
+class discussion. Class discussion also helps students to practice communicating
+their understanding of the material to members of the class whose research focus
+and educational background skews toward human subjects and factors and those 
+who skew toward computational research. Students will be required to 
+attend each class and participate in discussion
+by asking thoughtful questions and communicating their opinions, ideas, and understanding on a topic
+clearly to everyone in the class.
 
 ## Schedule
 ### Week 1 : Introduction
