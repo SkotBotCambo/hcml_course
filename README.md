@@ -152,7 +152,7 @@ might a "user" address or remedy these challenges?
 * [Interactive Machine Learning](http://edithlaw.ca/cs889/2014/reading/InteractiveMachineLearning.pdf) (*Jerry Alan Fails*, *Dan R. Olsen Jr.*)
 * [Toward harnessing user feedback for machine learning](https://dl.acm.org/citation.cfm?id=1216316)
 
-### Week 3 : Interactive Machine Learning 1 : Active Learning
+### Week 3 : Interactive Machine Learning 2 : Active Learning
 #### Themes covered:
 * Active Learning
 * Machine Teaching
@@ -169,6 +169,7 @@ might a "user" address or remedy these challenges?
 * [Designing Interactions for Robot Active Learners](http://edithlaw.ca/cs889/2015/reading/SL/cakmak10_tamd_active.pdf) (*Maya Cakmak*, *Crystal Chao*, *Andrea L. Thomaz*)
 * [Interactive Optimization for Steering Machine Classification](http://edithlaw.ca/cs889/2015/reading/Steering_Classification_2010.pdf) (*Ashish Kapoor*, *Bongshin Lee*, *Desney Tan*, *Eric Horvitz*)
 * [Active Learning with Real Annotation Costs](http://edithlaw.ca/cs889/2015/reading/settles.nips08.pdf) (*Burr Settles*, *Mark Craven*, *Lewis Friedland*)
+* [CueFlik: interactive concept learning in image search](https://dl.acm.org/citation.cfm?id=1357061) (*James Fogarty*, *Desney Tan*, *Ashish Kapoor*, *Simon Winder*)
 
 
 ### Week 4 : Interactive Machine Learning 2: Reinforcement Learning
