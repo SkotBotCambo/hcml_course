@@ -324,6 +324,7 @@ Fields to Work Together](https://link.springer.com/chapter/10.1007%2F978-3-642-4
 * Concept Evolution, Drift, and Mismatch (http://ieeexplore.ieee.org/abstract/document/5694063/)
 * [Comparing Grounded Theory and Topic Modeling: Extreme Divergence or Unlikely Convergence?](https://www.shionguha.net/wp-content/uploads/2016/04/asi23786.pdf) (*Eric P.S. Baumer*, *David Mimno*, *Shion Guha*, *Emily Quan*, *Geri K. Gay*)
 * [Curriculum Learning](https://ronan.collobert.com/pub/matos/2009_curriculum_icml.pdf) (*Yoshua Bengio*)
+* [FlowingData.com blog on Visualizing Uncertainty](https://flowingdata.com/2018/01/08/visualizing-the-uncertainty-in-data/?imm_mid=0fa832&cmp=em-data-na-na-newsltr_20180117)
 * Ethics
 	* [*what if we asked a super-intelligent AI to make paperclips?*](https://www.theverge.com/tldr/2017/10/11/16457742/ai-paperclips-thought-experiment-game-frank-lantz)
 	* [Paperclips Game](http://www.decisionproblem.com/paperclips/index2.html)
