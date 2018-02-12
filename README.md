@@ -309,6 +309,7 @@ Fields to Work Together](https://link.springer.com/chapter/10.1007%2F978-3-642-4
 * [*Interactive Machine Learning*](http://iml.media.mit.edu/) class taught at MIT
 * [*How Quantitative UX Research Differs from Data Analytics*](https://medium.com/facebook-research/how-quantitative-ux-research-differs-from-data-analytics-1bbf0903768b) a blog post by Facebook employees.
 * [AlgorithmTips.org](http://algorithmtips.org/) a website that Professor Nick Diakopolous started to keep tracking of where algorithms are used in government.
+* [Visual Explanation of Machine Learning Concepts](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/)
 
 ### Additional Themes : 
 * [Look here for inspiration on experiments to run](https://experiments.withgoogle.com/ai)
