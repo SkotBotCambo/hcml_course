@@ -224,6 +224,7 @@ of model personalization? To help reason about this choose a specific applicatio
 * [Keeping Multiple Views Consistent: Constraints, Validations, and Exceptions in Visualization Authoring](http://faculty.washington.edu/jhullman/VIS17_Consistency_CR.pdf) (*Zening Qu*, *Jessica Hullman*)
 * [It's not a bug its a feature](https://www.researchgate.net/profile/Dennis_Eilers/publication/320508355_It%27s_not_a_Bug_it%27s_a_Feature_How_Visual_Model_Evaluation_can_help_to_incorporate_Human_Domain_Knowledge_in_Data_Science/links/59e9083ea6fdccfe7faffa8b/Its-not-a-Bug-its-a-Feature-How-Visual-Model-Evaluation-can-help-to-incorporate-Human-Domain-Knowledge-in-Data-Science.pdf)
 * [Transparency and Socially Guided Machine Learning](https://www.cc.gatech.edu/~athomaz/papers/ThomazBreazeal-ICDL06.pdf) (*Andrea L. Thomaz*, *Cynthia Breazal*)
+* [Topic Model Diagnostics: Assessing Domain Relevance via Topical Alignment](http://idl.cs.washington.edu/papers/topic-model-diagnostics) (*Jason Chuang*, *Sonal Gupta*, *Christopher D. Manning*, *Jeffrey Heer*)
 
 ### Week 7 : Algorithmic Bias, Accountability, and Auditing
 #### Themes:
@@ -303,31 +304,33 @@ Fields to Work Together](https://link.springer.com/chapter/10.1007%2F978-3-642-4
 * [Principles of Explanatory Debugging to Personalize Interactive Machine Learning](https://dl.acm.org/citation.cfm?id=2701399)
 
 ### Additional Resources:
-* [*Fairness In Machine Learning*](https://fairmlclass.github.io/) class taught by Moritz Hardt at UC Berkeley
-* [*A Course on Fairness, Accountability and Transparency in Machine Learning*](https://geomblog.github.io/fairness/) curriculumn by the GIAN program of the Government of India
-* [*Human-in-the-loop Systems*](http://edithlaw.ca/cs889/2014/index.html) class taught by Edith Law at University of Toronto
-* [*Interactive Machine Learning*](http://iml.media.mit.edu/) class taught at MIT
 * [*How Quantitative UX Research Differs from Data Analytics*](https://medium.com/facebook-research/how-quantitative-ux-research-differs-from-data-analytics-1bbf0903768b) a blog post by Facebook employees.
 * [AlgorithmTips.org](http://algorithmtips.org/) a website that Professor Nick Diakopolous started to keep tracking of where algorithms are used in government.
 * [Visual Explanation of Machine Learning Concepts](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/)
+* [A fairly good, quick, clean explanation of the Human-Centered Design Process](https://medium.com/@katiemccurdy/human-centered-design-process-diagram-ac8f5eeb411b)
 
-### Additional Themes : 
-* [Look here for inspiration on experiments to run](https://experiments.withgoogle.com/ai)
+### Looking for inspiration
+* [AI Experiments (mostly in the browser) From Google](https://experiments.withgoogle.com/ai)
+
+### Other Labs and Courses
 * [Google's People + AI Research](https://design.google/library/ai/)
-* Aligning Human understanding with model representation (Democratic ML)
-	* http://idl.cs.washington.edu/papers/topic-model-diagnostics
-	* Domain Drive Data Mining (D3M) http://ieeexplore.ieee.org/abstract/document/4733924/
-		* importance of domain expertise/knowledge in analytic task
-		* Perceptual (Re)learning http://ieeexplore.ieee.org/abstract/document/4216985/
-* Algorithmic Bias
-	* http://web.engr.illinois.edu/~eslamim2/
-* Algorithmic Authority (Catie Lustig)
+* [*Interactive Machine Learning*](http://iml.media.mit.edu/) class taught at MIT
+* [*Fairness In Machine Learning*](https://fairmlclass.github.io/) class taught by Moritz Hardt at UC Berkeley
+* [*A Course on Fairness, Accountability and Transparency in Machine Learning*](https://geomblog.github.io/fairness/) curriculumn by the GIAN program of the Government of India
+* [*Human-in-the-loop Systems*](http://edithlaw.ca/cs889/2014/index.html) class taught by Edith Law at University of Toronto
+* [University of Washington Interactive Data Lab](http://idl.cs.washington.edu/)
+
+### Things to know when designing a labeling task
+* [IEEE article on Perceptual (Re)learning](http://ieeexplore.ieee.org/abstract/document/4216985/)
+
+### Other good things to know about
+* [Domain Drive Data Mining (D3M)](http://ieeexplore.ieee.org/abstract/document/4733924/)
+* [Motahhare Eslami's personal site containing a lot of work on *algorithmic bias*](http://web.engr.illinois.edu/~eslamim2/index.php)
+* [Algorithmic Authority (Catie Lustig)](http://www.artifex.org/~bonnie/lustig_nardi_HICSS_2015.pdf)
 * ["Deep Teaching" i.e.: Machine Teaching + Deep Learnign](https://medium.com/intuitionmachine/why-teaching-will-be-the-sexiest-job-of-the-future-a-i-economy-b8e1c2ee413e)
-* User-Centered Data Science & Quantitative UX Research
-* Concept Evolution, Drift, and Mismatch (http://ieeexplore.ieee.org/abstract/document/5694063/)
+* [Concept Evolution, Drift, and Mismatch (http://ieeexplore.ieee.org/abstract/document/5694063/)
 * [Comparing Grounded Theory and Topic Modeling: Extreme Divergence or Unlikely Convergence?](https://www.shionguha.net/wp-content/uploads/2016/04/asi23786.pdf) (*Eric P.S. Baumer*, *David Mimno*, *Shion Guha*, *Emily Quan*, *Geri K. Gay*)
 * [Curriculum Learning](https://ronan.collobert.com/pub/matos/2009_curriculum_icml.pdf) (*Yoshua Bengio*)
 * [FlowingData.com blog on Visualizing Uncertainty](https://flowingdata.com/2018/01/08/visualizing-the-uncertainty-in-data/?imm_mid=0fa832&cmp=em-data-na-na-newsltr_20180117)
-* Ethics
-	* [*what if we asked a super-intelligent AI to make paperclips?*](https://www.theverge.com/tldr/2017/10/11/16457742/ai-paperclips-thought-experiment-game-frank-lantz)
+* [*what if we asked a super-intelligent AI to make paperclips?*](https://www.theverge.com/tldr/2017/10/11/16457742/ai-paperclips-thought-experiment-game-frank-lantz)
 	* [Paperclips Game](http://www.decisionproblem.com/paperclips/index2.html)
