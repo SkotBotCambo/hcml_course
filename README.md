@@ -300,7 +300,7 @@ Fields to Work Together](https://link.springer.com/chapter/10.1007%2F978-3-642-4
 * [Integrating Rich User Feedback into Intelligent User Interfaces](http://openaccess.city.ac.uk/14847/8/stumpfIUI08_camera_amended.pdf)
 * [Descriptive Keyphrases for Text Visualization](http://idl.cs.washington.edu/papers/keyphrases
 )
-* [Principles of Explanatory Debugging to Personalize Interactive Machine Learning](Principles of Explanatory Debugging to Personalize Interactive Machine Learning)
+* [Principles of Explanatory Debugging to Personalize Interactive Machine Learning](https://dl.acm.org/citation.cfm?id=2701399)
 
 ### Additional Resources:
 * [*Fairness In Machine Learning*](https://fairmlclass.github.io/) class taught by Moritz Hardt at UC Berkeley
