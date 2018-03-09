@@ -322,6 +322,8 @@ Fields to Work Together](https://link.springer.com/chapter/10.1007%2F978-3-642-4
 
 ### Things to know when designing a labeling task
 * [IEEE article on Perceptual (Re)learning](http://ieeexplore.ieee.org/abstract/document/4216985/)
+* [CrowdFlower's Image Annotation Software](https://www.crowdflower.com/use-case/image-annotation/)
+* [CrowdFlower's *What We Learned Labeling 1 Million Images* Book](https://visit.crowdflower.com/image-annotation-for-computer-vision-framework.html)
 
 ### Other good things to know about
 * [Domain Drive Data Mining (D3M)](http://ieeexplore.ieee.org/abstract/document/4733924/)
